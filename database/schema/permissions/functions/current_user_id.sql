@@ -1,0 +1,1 @@
+GRANT EXECUTE ON FUNCTION current_user_id() TO PUBLIC;

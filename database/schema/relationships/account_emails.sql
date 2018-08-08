@@ -1,0 +1,5 @@
+ALTER TABLE account_emails
+  ADD CONSTRAINT emails_user_id_fkey FOREIGN KEY (account_id)
+REFERENCES accounts (id) MATCH SIMPLE
+ON UPDATE NO ACTION
+ON DELETE NO ACTION;
